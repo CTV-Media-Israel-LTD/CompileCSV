@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1724850684 source:c:\users\administrator\development\codeblocks\compilecsv\main.cpp
+	<windows.h>
+	<commctrl.h>
+	<string>
+	<vector>
+	<uxtheme.h>
+
