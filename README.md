@@ -4,4 +4,5 @@ A python script cross referencing data from the Priority DB, Hostnames and preco
 ## Requirements
  - openpyxl
  - pandas
-### you can pip install them both
+### pip install opepyxl
+### pip install pandas
