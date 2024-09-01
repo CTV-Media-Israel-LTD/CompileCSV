@@ -288,8 +288,6 @@ void ProcessFiles() {
     MessageBox(NULL, woutput.c_str(), L"Python Script Output", MB_OK | MB_ICONINFORMATION);
 }
 
-// ... (keep the rest of the code as is)
-
 HWND CreateStyledButton(HWND hParent, LPCWSTR text, int x, int y, int width, int height, HMENU hMenu) {
     HWND hButton = CreateWindowEx(0, L"BUTTON", text, WS_VISIBLE | WS_CHILD | BS_OWNERDRAW, x, y, width, height, hParent, hMenu, NULL, NULL);
     SetWindowSubclass(hButton, ButtonProc, 0, 0);
